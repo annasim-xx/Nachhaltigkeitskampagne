@@ -20,7 +20,7 @@ HradilTabelle <- tribble(
   "Randgruppen", "Diskriminierung 5, Diskriminierung 6", "Geld 3, Geld 4, Geld 5, Formale Bildung 4, Formale Bildung 5, Soziale Absicherung 4, Soziale Absicherung 5, Soziale Absicherung 6, Wohnbedingungen 3, Wohnbedingungen 4, Wohnbedingungen 5, Wohnbedingungen 6, Demokratische Institutionen 4, Demokratische Institutionen 5, Demokratische Institutionen 6, Soziale Rollen 4, Soziale Rollen 5, Soziale Rollen 6"
 )
 
-# Erstellen der Variablentabelle
+# Erstellen der Variablentabelle, Vorlage der "hoch", "mittel", "niedrig"-Werte sind von Max Krause, Florian Schneider und Hannah Pahnke, und wurden entsprechend von Anna Simon in den Code eingefügt.
 Variablentabelle <- tribble(
   ~Faktoren, ~`1M`, ~`2M`, ~`3M`, ~`4M`, ~`5M`, ~`6M`, ~`1T`, ~`2T`, ~`3T`, ~`4T`, ~`5T`, ~`6T`,
   "Formale Macht", "hoch", "hoch", "mittel", "mittel", "mittel", "mittel", "niedrig", "niedrig", "mittel", "mittel", "mittel", "mittel",
